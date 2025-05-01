@@ -18,9 +18,9 @@ This project uses machine learning to predict whether educational projects poste
 |----------------------------------|-----------------------------------------------------------------------------|
 | `mlp.ipynb`                      | Full Jupyter notebook with EDA, feature engineering, modeling, and bias audit |
 | `data/`                          | Datasets used for our project (see Kaggle instructions below)              |
-| `feature_matrix.csv`            | Final cleaned and encoded dataset used for model training                  |
-| `projects_for_expert_review.csv`| Bottom 10% least likely funded projects, based on model predictions        |
-| `df.csv`                         | Cleaned and merged dataset before encoding                                 |
+| `feature_matrix.csv`            | Final cleaned and encoded dataset used for model training(auto-generated when run)     |
+| `projects_for_expert_review.csv`| Bottom 10% least likely funded projects, based on model predictions (auto-generated)       |
+| `df.csv`                         | Cleaned and merged dataset before encoding (auto-generated)          |
 | `README.md`                      | Project overview, structure, and setup instructions                        |
 
 >  **Important**: You will need to manually download the following datasets from [Kaggle - KDD Cup 2014](https://www.kaggle.com/competitions/kdd-cup-2014-predicting-excitement-at-donors-choose/data) and place them in the `data/` folder:
