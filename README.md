@@ -2,6 +2,7 @@ This project uses machine learning to predict whether educational projects poste
 
 ## Project Structure
 
+data/                  - Raw data files from DonorsChoose (CSV format)
 mlp.ipynb            - Jupyter notebook file for our project
 outputs/
 ├── feature_matrix.csv - Final cleaned and encoded dataset
@@ -18,7 +19,7 @@ Teachers in under-resourced U.S. schools post projects requesting materials for 
 - Audit the model for biases across school demographics
 
 ## Data Sources
-
+https://www.kaggle.com/competitions/kdd-cup-2014-predicting-excitement-at-donors-choose/data
 - projects.csv: Project and teacher metadata
 - essays.csv: Project narratives
 - outcomes.csv: Binary label for whether a project was funded
