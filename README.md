@@ -16,10 +16,10 @@ This project uses machine learning to predict whether educational projects poste
 
 | File/Folder                      | Description                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------|
-| `mlp.ipynb`                      | Full Jupyter notebook with EDA, feature engineering, modeling, and bias audit |
+| `mlp_updated.ipynb`              | Full Jupyter notebook with EDA, feature engineering, modeling, and bias audit |
 | `data/`                          | Datasets used for our project (see Kaggle instructions below)              |
-| `feature_matrix.csv`            | Final cleaned and encoded dataset used for model training(auto-generated when run)     |
-| `projects_for_expert_review.csv`| Bottom 10% least likely funded projects, based on model predictions (auto-generated)       |
+| `feature_matrix.csv`             | Final cleaned and encoded dataset used for model training(auto-generated when run)     |
+| `projects_for_expert_review.csv` | Bottom 10% least likely funded projects, based on model predictions (auto-generated)       |
 | `df.csv`                         | Cleaned and merged dataset before encoding (auto-generated)          |
 | `README.md`                      | Project overview, structure, and setup instructions                        |
 
